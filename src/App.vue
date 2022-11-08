@@ -1,6 +1,7 @@
 <template>
   <el-container>
     <el-main>
+      <nav-bar></nav-bar>
       <video-list></video-list>
     </el-main>
   </el-container>
@@ -9,9 +10,11 @@
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
 import VideoList from './components/VideoList.vue';
+import NavBar from "@/components/NavBar.vue";
 
 @Options({
   components: {
+    NavBar,
     VideoList
   },
 })
