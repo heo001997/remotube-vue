@@ -1,20 +1,12 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <el-button>Example</el-button>
-  </div>
+  <h1>Video List</h1>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
+@Options({})
+export default class VideoList extends Vue {
 
-@Options({
-  props: {
-    msg: String
-  }
-})
-export default class HelloWorld extends Vue {
-  msg!: string
 }
 </script>
 

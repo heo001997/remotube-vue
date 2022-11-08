@@ -7,14 +7,9 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
+@Options({})
+export default class VideoList extends Vue {
 
-@Options({
-  props: {
-    msg: String
-  }
-})
-export default class HelloWorld extends Vue {
-  msg!: string
 }
 </script>
 
