@@ -1,19 +1,23 @@
-# vue-remotube
+# VueRemotube Overview
+
+This is VueRemotube a video sharing platform frontend.
 
 ## Project setup
 ```
-yarn install
+yrn install
 ```
 
-### Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
 ```
 yarn serve
 ```
+## Contact
 
-### Compiles and minifies for production
-```
-yarn build
-```
+* Comments and feedbacks are welcome.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* Keep in touch by email here [Tu Ricky](nguyentientu44.dev@gmail.com), or [by my LinkedIn](https://www.linkedin.com/in/tu-ricky/).
+
+## License
+
+* This code is free to use under the terms of the MIT license.
+
