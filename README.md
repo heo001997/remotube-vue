@@ -1,6 +1,8 @@
 # VueRemotube Overview
 
-This is VueRemotube a video sharing platform frontend.
+(Frontend) This is VueRemotube a video sharing platform.
+
+(Backend) [Remotube here](https://github.com/heo001997/remotube)
 
 ## Project setup
 ```
