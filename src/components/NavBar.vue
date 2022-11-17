@@ -60,7 +60,7 @@ export default class NavBar extends Vue {
   isAuthenticated() {
     if (!localStorage.access_token) return;
 
-    const url = `http://localhost:3000/users/me`;
+    const url = `${process.env.VUE_APP_HOST}/users/me`;
     const headers = {
       headers: {
         "Authorization": localStorage.access_token,
@@ -79,7 +79,7 @@ export default class NavBar extends Vue {
   };
 
   logout() {
-    const url = `http://localhost:3000/users/logout`;
+    const url = `${process.env.VUE_APP_HOST}/users/logout`;
     const headers = {
       headers: {
         "Authorization": localStorage.access_token,
@@ -98,7 +98,7 @@ export default class NavBar extends Vue {
   }
 
   loginOrRegister() {
-    const url = `http://localhost:3000/users`;
+    const url = `${process.env.VUE_APP_HOST}/users`;
     const data = {
       "email": this.user.email,
       "password": this.user.password,

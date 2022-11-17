@@ -3,7 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: true,
   configureWebpack: {
     devServer: {
-      proxy: 'http://localhost:3000/',
+      proxy: process.env.VUE_APP_HOST,
       headers: { "Access-Control-Allow-Origin": "*" }
     }
   }

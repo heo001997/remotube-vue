@@ -20,7 +20,7 @@ export default class Home extends Vue {
   }
 
   videoList() {
-    const url = `http://localhost:3000/videos`;
+    const url = `${process.env.VUE_APP_HOST}/videos`;
     this.axios.get(url,{ params: this.params }).then(res => {
       this.videos = this.videos.concat(res.data.records);
     }).catch((_err) => {

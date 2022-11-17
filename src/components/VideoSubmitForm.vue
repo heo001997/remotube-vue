@@ -29,7 +29,7 @@ export default class VideoSubmitForm extends Vue {
   noVideo = { ...this.video };
 
   submitVideo(){
-    const url = `http://localhost:3000/videos`;
+    const url = `${process.env.VUE_APP_HOST}/videos`;
     const data = this.video;
     const headers = {
       headers: {
